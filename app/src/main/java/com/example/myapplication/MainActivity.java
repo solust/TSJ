@@ -399,5 +399,9 @@ public class MainActivity extends AppCompatActivity {
                     }
                 }).create().show();
     }
+
+    public void onClickCall(View view) {
+        //Call to special phone number
+    }
 }
 
