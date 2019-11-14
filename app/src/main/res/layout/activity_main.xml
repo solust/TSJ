@@ -92,17 +92,4 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
 
-    <Button
-        android:id="@+id/button7"
-        android:layout_width="310dp"
-        android:layout_height="218dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginLeft="24dp"
-        android:layout_marginBottom="404dp"
-        android:background="@android:color/holo_red_light"
-        android:onClick="onClickCall"
-        android:text="Экстренный вызов"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
 </android.support.constraint.ConstraintLayout>
