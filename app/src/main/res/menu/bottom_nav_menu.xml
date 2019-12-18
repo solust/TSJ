@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:actionLayout="@layout/activity_main2"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/New" />
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:actionLayout="@layout/activity_main3"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/title_poll" />
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:actionLayout="@layout/activity_main4"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/title_request" />
+
+</menu>

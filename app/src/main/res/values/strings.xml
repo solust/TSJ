@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">ТСЖ</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="title_activity_main4">Main4Activity</string>
+    <string name="New">Новости</string>
+    <string name="title_poll">Опросы</string>
+    <string name="title_request">Заявки</string>
 </resources>

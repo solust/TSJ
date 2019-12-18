@@ -3,16 +3,15 @@ package com.example.myapplication;
 import android.annotation.SuppressLint;
 import android.content.DialogInterface;
 import android.content.pm.ActivityInfo;
-
 import android.os.AsyncTask;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.webkit.WebView;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
 
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.entity.UrlEncodedFormEntity;
@@ -41,7 +40,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        //setContentView(R.layout.activity_main2);//ПРОВЕРИТЬ!
+        setContentView(R.layout.activity_main2);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         TextView textView = findViewById(R.id.textView4);
 
@@ -49,6 +49,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onClickLog(View view) {
+
+        setContentView(R.layout.activity_main2);
         if (login == null) {
             final EditText log = findViewById(R.id.Log);
             login = log.getText().toString();
